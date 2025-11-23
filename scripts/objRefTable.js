@@ -50,9 +50,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Behaviors.MoveTo.Acts.MoveToObject,
 		C3.Behaviors.Bullet.Cnds.IsEnabled,
-		C3.Plugins.Browser.Acts.GoToURL,
-		C3.Plugins.Sprite.Acts.SetPos,
-		C3.Plugins.System.Acts.GoToLayout
+		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.Sprite.Acts.SetPos
 	];
 };
 self.C3_JsPropNameTable = [
@@ -112,7 +111,8 @@ self.C3_JsPropNameTable = [
 	{Sprite12: 0},
 	{teleporteemy: 0},
 	{teleporteemy2: 0},
-	{teleporteemy3: 0}
+	{teleporteemy3: 0},
+	{Sprite13: 0}
 ];
 
 self.InstanceType = {
@@ -162,5 +162,6 @@ self.InstanceType = {
 	Sprite12: class extends self.ISpriteInstance {},
 	teleporteemy: class extends self.ISpriteInstance {},
 	teleporteemy2: class extends self.ISpriteInstance {},
-	teleporteemy3: class extends self.ISpriteInstance {}
+	teleporteemy3: class extends self.ISpriteInstance {},
+	Sprite13: class extends self.ISpriteInstance {}
 }
